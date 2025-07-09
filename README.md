@@ -32,28 +32,28 @@ A modular Python-based application that extracts structured data from **medical 
 ## 📂 Project Structure
 
 Project-Medical-Data-Extraction/
-├── backend/
-│ ├── src/
-│ │ ├── main.py # FastAPI app
-│ │ ├── extractor.py # Image → text → parse
-│ │ ├── parser_generic.py # Abstract parser class
-│ │ ├── prescription_parser.py # Prescription data parser
-│ │ ├── patient_details_parser.py# Patient details parser
-│ │ ├── util.py # Preprocessing (OpenCV)
-│ ├── test/
-│ │ ├── test_prescription_parser.py
-│ │ └── test_patient_details_parser.py
-│ ├── uploads/ # Temp upload files (auto)
-│ └── resources/
-│ ├── prescription/ # Sample PDFs
-│ └── patient_details/
-├── frontend/
-│ └── app.py # Streamlit app
-├── screenshots/
-│ └── ui_screenshot.png # UI screenshot
-├── logo.png # (optional) app logo
-├── requirements.txt
-└── README.md
+├── backend/ 
+│ ├── src/ 
+│ │ ├── main.py # FastAPI app 
+│ │ ├── extractor.py # Image → text → parse  
+│ │ ├── parser_generic.py # Abstract parser class 
+│ │ ├── prescription_parser.py # Prescription data parser 
+│ │ ├── patient_details_parser.py# Patient details parser 
+│ │ ├── util.py # Preprocessing (OpenCV) 
+│ ├── test/ 
+│ │ ├── test_prescription_parser.py 
+│ │ └── test_patient_details_parser.py 
+│ ├── uploads/ # Temp upload files (auto) 
+│ └── resources/ 
+│ ├── prescription/ # Sample PDFs 
+│ └── patient_details/ 
+├── frontend/ 
+│ └── app.py # Streamlit app 
+├── screenshots/ 
+│ └── ui_screenshot.png # UI screenshot 
+├── logo.png # (optional) app logo 
+├── requirements.txt 
+└── README.md 
 
 
 ## 🖼️ UI Preview
@@ -65,7 +65,6 @@ Project-Medical-Data-Extraction/
 
 ### 🔧 Step 1: Clone the repository
 
-```bash
 git clone https://github.com/your-username/medical-document-extractor.git
 cd medical-document-extractor
 
@@ -113,5 +112,5 @@ extracted_data.json
 extracted_data.pdf
 
 🙋‍♂️ Author
-Developed by [Arun Hegde]
-Let’s connect on github.com/Arun-Hegde
+Developed by Arun Hegde
+Let’s connect on [Arun-Hegde]
